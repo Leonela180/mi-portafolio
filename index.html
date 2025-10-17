@@ -7,56 +7,7 @@
   <link rel="icon" type="image/svg+xml" href="/public/favicon.svg">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-    
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-    
-    .header-bg {
-      background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-    }
-    
-    .card-hover {
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    
-    .card-hover:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    }
-    
-    .hero-pattern {
-      background-image: radial-gradient(circle at 25% 25%, rgba(3, 10, 109, 0.877) 0%), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 0%, transparent 55%);
-    }
-    
-    .floating {
-      animation: floating 3s ease-in-out infinite;
-    }
-    
-    @keyframes floating {
-      0% { transform: translate(0, 0px); }
-      50% { transform: translate(0, 15px); }
-      100% { transform: translate(0, -0px); }
-    }
-    
-    /* Mejoras para mobile-first */
-    @media (max-width: 640px) {
-      .mobile-padding {
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
-      
-      .mobile-text-center {
-        text-align: center;
-      }
-      
-      .mobile-stack {
-        flex-direction: column;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-gray-50 text-gray-800">
 
